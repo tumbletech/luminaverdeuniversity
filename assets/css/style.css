@@ -85,7 +85,7 @@ header {
 /* Hero Section */
 
 .hero-section {
-    background-image: url('/assets/img/002herobackground.png');
+    background-image: url('../img/002herobackground.png');
     background-size: cover;
     background-position: center;
     color: #FFFFFF;
