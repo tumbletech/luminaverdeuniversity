@@ -1,0 +1,326 @@
+/* Whole*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+#content {
+    flex: 1;
+}
+
+/* Header */
+.navbar-custom {
+    margin: 0;
+    background-color: #097969;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFD700;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #FFF000;
+}
+
+.navbar-custom .navbar-toggle-icon {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #F8F9FA;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #FFD700;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: #FFFFFF;
+}
+
+#main-logo {
+    width: 70%;
+    height: 70%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: #004D40;
+}
+
+.dropdown-item:hover {
+    color: #FFF700;
+    background-color: #F8F9FA;
+}
+
+/* About Section */
+
+.section-padding {
+    padding: 80px 20px;
+}
+
+h2 {
+    color: #097969;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+  /* Section 1: Stanley West */
+
+  #section-1 {
+    padding: 120px 0;
+    margin-top: 120px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#section-1 img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#section-1 h2 {
+    font-size: 2.2rem;
+}
+
+#section-1 p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+    /* Section 2: Dates */
+#section-2 {
+    background-color: #e8f5e9;
+    color: #2e7d32;
+}
+
+#section-2 h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #004D40;
+}
+
+#section-2 p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
+}
+
+#section-2 img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+    /* Section 3: Evolution */
+
+#section-3 {
+    background-color: #e3f2fd;
+    color: #1565c0;
+}
+
+#section-3 h2 {
+    color: #004D40;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+#section-3 p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+#section-3 .image-container img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+    /* Section-4: Mission, Vision, and Values */
+
+#values-mission-vision {
+    background-color: #f9f9f9;
+    padding: 60px 15px;
+}
+
+#values-mission-vision h2 {
+    font-family: 'Cinzel', serif;
+    color: #097969;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#values-mission-vision p {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#values-mission-vision strong {
+    color: #333;
+    font-weight: 600;
+}
+
+#values-mission-vision img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    #values-mission-vision {
+        padding: 30px 15px;
+    }
+
+    #values-mission-vision h2 {
+        font-size: 24px;
+    }
+
+    #values-mission-vision p {
+        font-size: 14px;
+    }
+}
+
+/* Footer Section */
+.footer {
+    background-color: #ffde59;
+    color: #333;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10;
+}
+
+.footer-logo, .footer-address, .quick-links, .myLVU-portal {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.footer-logo img {
+    width: 80%;
+    height: auto;
+}
+
+.footer-address h5, .quick-links h5, .myLVU-portal h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-address p {
+    font-size: 16px;
+    color: #666;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+    list-style-type: none;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #097969;
+}
+
+#quick-links ul li {
+    list-style-type: none;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #004D40;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: -40px;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer .social-icon {
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #097969;
+}
+
+@media (max-width: 767px) {
+    .footer-logo, .footer-address, .quick-links, .myLVU-portal {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .footer .container-fluid {
+        flex-direction: column;
+    }
+
+    .footer-logo img {
+        max-width: 120px;
+    }
+}
+
+
+

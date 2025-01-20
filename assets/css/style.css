@@ -1,0 +1,340 @@
+/* Whole*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    padding: 0;
+}
+
+#content {
+    flex: 1;
+}
+
+/* Header */
+.navbar-custom {
+    margin: 0;
+    background-color: #097969;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #FFD700;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    color: #FFF000;
+}
+
+.navbar-custom .navbar-toggle-icon {
+    background-color: #FFFFFF;
+}
+
+header {
+    background-color: #F8F9FA;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1030;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2)
+}
+
+.navbar-custom .navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-brand {
+    font-family: 'Cinzel', serif;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    font-size: 16px;
+    color: #FFD700;
+}
+
+.navbar-custom .navbar-toggler-icon {
+    background-color: #FFFFFF;
+}
+
+#main-logo {
+    width: 70%;
+    height: 70%;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-item {
+    color: #004D40;
+}
+
+.dropdown-item:hover {
+    color: #FFF700;
+    background-color: #F8F9FA;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url('/assets/img/002herobackground.png');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    padding: 250px 0 100px;
+    margin-top: 120px;
+}
+
+.hero-section .container {
+    background-color: rgba(0, 77, 64, 0.65);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.hero-section .btn {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.hero-section .btn-success {
+    background-color: #004D40;
+    border: none;
+}
+
+.hero-section .btn-success:hover {
+    background-color: #00695C;
+    transform: scale(1.05);
+}
+
+.hero-section .btn-outline-light {
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+}
+
+.hero-section .btn-outline-light:hover {
+    background-color: #FFFFFF;
+    color: #004D40;
+    transform: scale(1.05);
+}
+
+/* News Section */
+.news-section .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
+}
+
+.news-section .card:hover {
+    transform: translateY(-10px);
+}
+
+.news-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.news-section .card-body {
+    padding: 15px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-section .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #004D40;
+}
+
+.news-section .card-body .btn-link {
+    color: #004D40;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.news-section .card-body .btn-link:hover {
+    color: #00695C;
+    text-decoration: underline;
+}
+
+.news-section .btn-primary {
+    background-color: #004D40;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+
+.news-section .btn-primary:hover {
+    background-color: #00695C;
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .news-section .col-md-3 {
+        flex: 0 0 50%;
+    }
+}
+
+@media (max-width: 576px) {
+    .news-section .col-md-3 {
+        flex: 0 0 100%;
+    }
+}
+
+/* Calendar and Events Section*/
+
+.calendar-events-section {
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.calendar-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    text-align: center;
+    height: 100%;
+}
+
+.calendar-placeholder {
+    font-size: 18px;
+    color: #555;
+    padding: 30px;
+    border: 2px dashed #097969;
+}
+
+.event-card {
+    border-left: 5px solid #097969;
+}
+
+.event-card .event-title {
+    color: #004D40;
+    font-weight: bold;
+}
+
+.events-list .btn-link {
+    color: #097969;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.events-list .btn-link:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+    .calendar-events-section .row {
+        flex-direction: column;
+    }
+}
+
+/* Footer Section */
+.footer {
+    background-color: #ffde59;
+    color: #333;
+    padding: 40px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10;
+}
+
+.footer-logo, .footer-address, .quick-links, .myLVU-portal {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+}
+
+.footer-logo img {
+    width: 80%;
+    height: auto;
+}
+
+.footer-address h5, .quick-links h5, .myLVU-portal h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.footer-address p {
+    font-size: 16px;
+    color: #666;
+}
+
+.footer ul li {
+    margin-bottom: 8px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+    color: #097969;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #004D40;
+    padding: 10px 0;
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: -40px;
+}
+
+.footer .social-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer .social-icon {
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-icon:hover {
+    color: #097969;
+}
+
+@media (max-width: 767px) {
+    .footer-logo, .footer-address, .quick-links, .myLVU-portal {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .footer .container-fluid {
+        flex-direction: column;
+    }
+
+    .footer-logo img {
+        max-width: 120px;
+    }
+}
+
+
+
