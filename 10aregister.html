@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--- 
+        ===================================================================
+        * Project No.:    Tumbletech-2024-M-001
+        * Title:          Lumina Verde University Main Website
+        * Author:         Joven Moralejo - Tumbletech, Inc.
+        * Date:           December 05, 2024
+        ===================================================================
+--->    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumina Verde University</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!--- Stylesheets --->
+    <link rel="stylesheet" href="./assets/css/apply.css">
+
+    <!--- Favicon --->
+    <link href="./assets/img/000lvufavicon.png" rel="icon">
+    <link href="./assets/img/000lvufavicon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--- Bootstrap 5 --->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <!--- Header Section --->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <div class="container-fluid">
+                <!--- Logo --->
+                <a href="#" class="navbar-brand">
+                    <img src="./assets/img/001lvumainlogo.png" alt="Lumina Verde University Logo" width="40" class="d-inline-block align-text-top" id="main-logo"></a>
+                <!--- Navbar Toggler --->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!--- Navbar Links --->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./01about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="admissionsDropdown" role="button" data-bs-toggle="dropdown" aria-expande="false">
+                                Admissions
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="admissionsDropdown">
+                                <li><a class="dropdown-item" href="#">Undergraduate Programs</a></li>
+                                <li><a class="dropdown-item" href="#">Graduate Programs</a></li>
+                                <li><a class="dropdown-item" href="#">International Students</a></li>
+                                <li><a class="dropdown-item" href="#">Domestic Transferees</a></li>
+                                <li><a class="dropdown-item" href="#">Scholarships and Financial Aids</a></li>
+                                <li><a class="dropdown-item" href="#">Application Process</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                            href="#"
+                            id="educationDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Education
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="educationDropdown">
+                                <li><a class="dropdown-item" href="./03aeduunderg.html">Undergraduate Programs</a></li>
+                                <li><a class="dropdown-item" href="./03bedugrad.html">Graduate Programs</a></li>
+                                <li><a class="dropdown-item" href="./03ceduopenu.html">Open University Programs</a></li>
+                                <li><a class="dropdown-item" href="./03deduvoc.html">Vocational Courses</a></li>
+                                <li><a class="dropdown-item" href="./03eeduonline.html">Online Courses</a></li>
+                                <li><a class="dropdown-item" href="./03fedushort.html">Short Courses</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Research</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- ==========================================
+             APPLY ONLINE HERO
+        =========================================== -->
+        <section class="hero-section text-center text-light">
+            <div class="container py-5">
+        
+                <h1 class="display-4 fw-bold">
+                    Apply Online
+                </h1>
+        
+                <p class="lead mt-3">
+                    Begin your academic journey with
+                    <strong>Lumina Verde University.</strong>
+                    Our Online Admissions System makes applying simple,
+                    convenient, and secure.
+                </p>
+        
+                <a href="#" class="btn btn-success btn-lg mt-3">
+                    Start Online Application
+                </a>
+        
+            </div>
+        </section>
+        
+        <!-- ==========================================
+             WELCOME
+        =========================================== -->
+        <section class="py-5">
+            <div class="container">
+        
+                <div class="text-center mb-5">
+                    <h2>Welcome to Online Admissions</h2>
+        
+                    <p class="lead">
+                        Thank you for choosing Lumina Verde University.
+                        This portal allows prospective students to apply
+                        online, upload documentary requirements, and
+                        monitor the progress of their applications.
+                    </p>
+                </div>
+        
+            </div>
+        </section>
+        
+        <!-- ==========================================
+             ADMISSION CATEGORIES
+        =========================================== -->
+        <section class="py-5 bg-light">
+        
+            <div class="container">
+        
+                <h2 class="text-center mb-5">
+                    Choose Your Admission Category
+                </h2>
+        
+                <div class="row">
+        
+                    <div class="col-md-3 mb-4">
+        
+                        <div class="card h-100 shadow-sm">
+        
+                            <div class="card-body text-center">
+        
+                                <i class="fas fa-user-graduate fa-3x mb-3 text-success"></i>
+        
+                                <h4>Freshmen</h4>
+        
+                                <p>
+                                    Apply as a first-year student entering
+                                    college for the first time.
+                                </p>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-md-3 mb-4">
+        
+                        <div class="card h-100 shadow-sm">
+        
+                            <div class="card-body text-center">
+        
+                                <i class="fas fa-exchange-alt fa-3x mb-3 text-success"></i>
+        
+                                <h4>Transferees</h4>
+        
+                                <p>
+                                    Continue your academic journey at
+                                    Lumina Verde University.
+                                </p>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-md-3 mb-4">
+        
+                        <div class="card h-100 shadow-sm">
+        
+                            <div class="card-body text-center">
+        
+                                <i class="fas fa-user-tie fa-3x mb-3 text-success"></i>
+        
+                                <h4>Graduate</h4>
+        
+                                <p>
+                                    Pursue advanced studies through
+                                    our graduate programs.
+                                </p>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="col-md-3 mb-4">
+        
+                        <div class="card h-100 shadow-sm">
+        
+                            <div class="card-body text-center">
+        
+                                <i class="fas fa-globe fa-3x mb-3 text-success"></i>
+        
+                                <h4>International</h4>
+        
+                                <p>
+                                    Join our diverse international
+                                    academic community.
+                                </p>
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        <!-- ==========================================
+             APPLICATION PROCESS
+        =========================================== -->
+        <section class="py-5">
+        
+            <div class="container">
+        
+                <h2 class="text-center mb-5">
+                    Online Application Process
+                </h2>
+        
+                <div class="row text-center">
+        
+                    <div class="col-md">
+        
+                        <h3>1</h3>
+        
+                        <h5>Create Account</h5>
+        
+                    </div>
+        
+                    <div class="col-md">
+        
+                        <h3>2</h3>
+        
+                        <h5>Complete Application</h5>
+        
+                    </div>
+        
+                    <div class="col-md">
+        
+                        <h3>3</h3>
+        
+                        <h5>Upload Documents</h5>
+        
+                    </div>
+        
+                    <div class="col-md">
+        
+                        <h3>4</h3>
+        
+                        <h5>Evaluation</h5>
+        
+                    </div>
+        
+                    <div class="col-md">
+        
+                        <h3>5</h3>
+        
+                        <h5>Admission Decision</h5>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        <!-- ==========================================
+             IMPORTANT DATES
+        =========================================== -->
+        <section class="py-5 bg-light">
+        
+            <div class="container">
+        
+                <h2 class="text-center mb-4">
+                    Important Dates
+                </h2>
+        
+                <table class="table table-bordered">
+        
+                    <thead>
+        
+                        <tr>
+        
+                            <th>Activity</th>
+        
+                            <th>Date</th>
+        
+                        </tr>
+        
+                    </thead>
+        
+                    <tbody>
+        
+                        <tr>
+        
+                            <td>Application Opens</td>
+        
+                            <td>To Be Announced</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td>Application Deadline</td>
+        
+                            <td>To Be Announced</td>
+        
+                        </tr>
+        
+                        <tr>
+        
+                            <td>Release of Results</td>
+        
+                            <td>To Be Announced</td>
+        
+                        </tr>
+        
+                    </tbody>
+        
+                </table>
+        
+            </div>
+        
+        </section>
+        
+        <!-- ==========================================
+             FAQ
+        =========================================== -->
+        <section class="py-5">
+        
+            <div class="container">
+        
+                <h2 class="text-center mb-5">
+                    Frequently Asked Questions
+                </h2>
+        
+                <div class="accordion" id="faqAccordion">
+        
+                    <div class="accordion-item">
+        
+                        <h2 class="accordion-header">
+        
+                            <button class="accordion-button"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faq1">
+        
+                                Who can apply?
+        
+                            </button>
+        
+                        </h2>
+        
+                        <div id="faq1"
+                            class="accordion-collapse collapse show"
+                            data-bs-parent="#faqAccordion">
+        
+                            <div class="accordion-body">
+        
+                                Freshmen, Transferees,
+                                Graduate Students, and
+                                International Students.
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                    <div class="accordion-item">
+        
+                        <h2 class="accordion-header">
+        
+                            <button class="accordion-button collapsed"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#faq2">
+        
+                                How do I track my application?
+        
+                            </button>
+        
+                        </h2>
+        
+                        <div id="faq2"
+                            class="accordion-collapse collapse"
+                            data-bs-parent="#faqAccordion">
+        
+                            <div class="accordion-body">
+        
+                                Once your account has been created,
+                                you may log in anytime to check your
+                                application status.
+        
+                            </div>
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+        
+        <!-- ==========================================
+             FINAL CTA
+        =========================================== -->
+        <section class="py-5 text-center bg-success text-white">
+        
+            <div class="container">
+        
+                <h2>
+        
+                    Ready to Begin?
+        
+                </h2>
+        
+                <p class="lead">
+        
+                    Take the first step toward becoming
+                    part of the Lumina Verde University community.
+        
+                </p>
+        
+                <a href="#"
+                    class="btn btn-light btn-lg">
+        
+                    Start Online Application
+        
+                </a>
+        
+                <p class="mt-4">
+        
+                    Already have an account?
+        
+                    <a href="#"
+                        class="text-white fw-bold">
+        
+                        Applicant Login
+        
+                    </a>
+        
+                </p>
+        
+            </div>
+        
+        </section>
+    <!--- Footer Section --->
+    <footer class="footer">
+        <div class="container-fluid">
+            <!--- Logo --->
+            <div class="footer-logo col-md-3">
+                <img src="./assets/img/007footerlogo01.png" alt="Lumina Verde University Logo" class="footer-logo-img">
+            </div>
+            <!--- Address --->
+            <div class="footer-address col-md-3">
+                <h5>Address</h5>
+                <p>Cite Du Niger, Bamako, Mali</p>
+            </div>
+            <!--- Quick Links --->
+            <div class="quick-links col-md-3">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./01about.html">About</a></li>
+                    <li><a href="#">Admissions</a></li>
+                    <li><a href="#">Research</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Apply Online</a></li>
+                    <li><a href="#">Schedule a Visit</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="myLVU-portal col-md-3">
+                <h5><a href="#">myLVU</a></h5>
+            </div>
+        </div>
+        <!--- Copyright and Designed By Section --->
+        <div class="footer-bottom text-center">
+            <p>&copy; 2024 Lumina Verde University | All Rights Reseved</p>
+            <p>Website designed by Joven E. Moralejo | Tumbletech, Inc.</p>
+        </div>
+    </footer>
+    
+
+
+
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
